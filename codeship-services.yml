@@ -1,0 +1,16 @@
+app:
+  build:
+    image: binarytemple/docker-phoenix
+    dockerfile_path: Dockerfile
+  environment:
+    PHOENIX_VERSION: 1.1.4
+#    POSTGRES_HOST: postgres
+#    POSTGRES_DB: postgres
+#    POSTGRES_USER: postgres
+#  links:
+#    - redis
+#    - postgres
+#redis:
+#  image: redis:3.0
+#postgres:
+#   image: postgres:9.5
